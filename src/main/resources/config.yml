@@ -1,0 +1,32 @@
+# ═══════════════════════════════════════════
+#   ServerAnalytics  •  Made by Mineconed
+# ═══════════════════════════════════════════
+
+# Language: "en" or "da" (messages_en.yml / messages_da.yml). Make your own messages_xx.yml for more
+language: "en"
+
+server_name: "My Server"
+
+# Time zone for days and hours, fx "Europe/Copenhagen" or "America/New_York". Empty = the server's time zone
+timezone: ""
+
+date_format: "dd/MM/yyyy"
+
+# Do not count vanished players (SuperVanish, PremiumVanish, Essentials ...)
+hide_vanished: true
+# Players with serveranalytics.ignore are never counted (fx staff alts)
+
+discord:
+  # Discord channel → Edit channel → Integrations → Webhooks → New Webhook → Copy Webhook URL
+  webhook_url: ""
+  bot_name: "ServerAnalytics"
+  # Daily report with a chart, sent at this time every day (24 hour clock)
+  daily_report: true
+  report_time: "23:55"
+  # Weekly report on this day (MONDAY, TUESDAY ... SUNDAY), at the same time
+  weekly_report: true
+  weekly_day: "SUNDAY"
+  # Picture with a bar chart of players per hour
+  chart_image: true
+  # Embed color as a number (8086271 = purple)
+  color: 8086271

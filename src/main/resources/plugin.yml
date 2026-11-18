@@ -1,0 +1,15 @@
+name: ServerAnalytics
+version: ${project.version}
+main: dk.mineconed.analytics.ServerAnalytics
+author: Mineconed
+api-version: 1.13
+
+commands:
+  analytics:
+    aliases: [sa, serveranalytics]
+
+permissions:
+  serveranalytics.use:
+    default: op
+  serveranalytics.ignore:
+    default: false
